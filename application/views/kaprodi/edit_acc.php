@@ -39,7 +39,7 @@
 							<div class="form-group my-3">
 								<div class="form-group">
 									<label>Nama</label>
-									<input value="<?php echo $account['nama_kaprodi'] ?>" type="nama_kaprodi" class="form-control" name="nama_kaprodi" required>
+                                                                        <input value="<?php print_r($account['nama_kaprodi']) ?>" type="nama_kaprodi" class="form-control" name="nama_kaprodi" required>
 								</div>
 							</div>
 							<input type="hidden" name="id_kaprodi" value="<?php echo $account['id_kaprodi'] ?>">
